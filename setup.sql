@@ -1,0 +1,9 @@
+DROP TABLE users;
+
+CREATE TABLE users(
+  id SERIAL NOT NULL PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  email VARCHAR(225) NOT NULL,
+  country VARCHAR(225) NOT NULL
+
+);
